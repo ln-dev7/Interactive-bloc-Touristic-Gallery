@@ -11,10 +11,14 @@
 
   color-scheme: light dark;
   color: #242424;
-  background-color: #FFF;
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-gradient {
+  background: linear-gradient(236deg, #d3dde9 24.99%, #dddedc 93.14%);
 }

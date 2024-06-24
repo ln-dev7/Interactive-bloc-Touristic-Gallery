@@ -1,2 +1,2 @@
-import './style.scss'
-import gsap from 'gsap'
+import "./style.scss";
+import gsap from "gsap";
