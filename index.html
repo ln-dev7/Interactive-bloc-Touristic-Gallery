@@ -12,7 +12,7 @@
   <div class="relative w-full h-screen overflow-hidden bg-gradient" id="app">
     <div
       class="absolute bottom-4 left-1/2 -translate-x-1/2 w-80 flex items-center justify-between py-4 px-10 bg-black text-white font-semibold rounded-full">
-      <a class="underline underline-offset-2" href="https://x.com/ln_dev7">
+      <a class="underline underline-offset-2" href="https://ui.lndev.me">
         Code by LN
       </a>
       <a class="underline underline-offset-2" href="https://github.com/ln-dev7/Interactive-bloc-Touristic-Gallery">
@@ -23,46 +23,47 @@
         Figma
       </a>
     </div>
-    <div class="w-full h-full flex flex-col items-center justify-center p-4">
-      <div class="flex flex-col items-center">
-        <h1 className="text-3xl font-bold underline">
+    <div class="w-full h-full flex flex-col items-center justify-center p-4 gap-16">
+      <div class="flex flex-col items-center space-y-4 titles">
+        <h1 class="text-5xl font-black">
           Visitez le Cameroun !
         </h1>
-        <p>Explorez les meilleurs lieux touristiques et historique du Cameroun</p>
+        <p class="w-80 text-center">Explorez les meilleurs lieux touristiques et historique du Cameroun</p>
       </div>
       <div class="flex items-center gap-16">
-        <div class="bg-[#B79470] w-[380px] h-[495px] rounded-[25px] overflow-hidden cursor-pointer card">
+        <div class="bg-[#B79470] w-[380px] h-[495px] rounded-[25px] overflow-hidden cursor-pointer card card-1">
           <img src="/1.png" alt="image" class="w-full h-[340px] object-cover" />
-          <div class="flex flex-col items-center justify-center gap-3 px-4 py-6">
-            <h3 class="font-bold">Site touristique</h3>
-            <p class="text-center">Explorez les meilleurs lieux touristiques et historique du Cameroun</p>
+          <div class="flex flex-col items-center justify-center gap-3 px-4 py-6 w-80 mx-auto titles-1">
+            <h3 class="font-bold text-2xl">Site touristique</h3>
+            <p class="text-center text-sm">Explorez les meilleurs lieux touristiques et historique du Cameroun</p>
           </div>
         </div>
-        <div class="bg-[#BBB7FC] w-[380px] h-[495px] rounded-[25px] overflow-hidden cursor-pointer card">
-          <div class="relative w-full h-[340px]">
+        <div class="bg-[#BBB7FC] w-[380px] h-[495px] rounded-[25px] cursor-pointer card card-2 group">
+          <div class="relative w-full h-[340px] card-2-images">
             <div
-              class="bg-[#E0E1EC] rounded-xl w-[200px] h-[250px] left-28 z-[3] top-16 -translate-x-1/2 overflow-hidden border-4 border-[#E0E1EC] absolute -rotate-[4deg]">
+              class="bg-[#E0E1EC] rounded-xl w-[200px] h-[250px] left-28 z-[3] top-16 -translate-x-1/2 overflow-hidden border-4 border-[#E0E1EC] absolute -rotate-[4deg] group-hover:left-16 group-hover:top-10 group-hover:scale-110 duration-300 group-hover:-rotate-[10deg] card-2-img-1">
               <img src="/3.png" alt="image" class="w-full h-full object-cover" />
             </div>
             <div
-              class="bg-[#E0E1EC] rounded-xl w-[200px] h-[250px] left-1/2 top-6 z-[2] -translate-x-1/2 overflow-hidden border-4 border-[#FFCE61] absolute rotate-[3deg]">
+              class="bg-[#E0E1EC] rounded-xl w-[200px] h-[250px] left-1/2 top-6 z-[2] -translate-x-1/2 overflow-hidden border-4 border-[#FFCE61] absolute rotate-[3deg] duration-300 group-hover:-top-6 group-hover:scale-110 card-2-img-2">
               <img src="/4.png" alt="image" class="w-full h-full object-cover" />
             </div>
             <div
-              class="bg-[#E0E1EC] rounded-xl w-[200px] h-[250px] right-32 top-24 translate-x-1/2 overflow-hidden border-4 border-[#A7DAA0] absolute rotate-[6deg]">
+              class="bg-[#E0E1EC] rounded-xl w-[200px] h-[250px] right-32 top-24 translate-x-1/2 overflow-hidden border-4 border-[#A7DAA0] absolute rotate-[6deg] group-hover:right-16 group-hover:top-10 group-hover:scale-110 duration-300 group-hover:rotate-[10deg] card-2-img-3">
               <img src="/5.png" alt="image" class="w-full h-full object-cover" />
             </div>
           </div>
-          <div class="flex flex-col items-center justify-center gap-3 px-4 py-6">
-            <h3 class="font-bold">Nord Cameroun</h3>
-            <p class="text-center">Explorez les meilleurs lieux touristiques et historique du Cameroun</p>
+          <div class="flex flex-col items-center justify-center gap-3 px-4 py-6 w-80 mx-auto titles-2">
+            <h3 class="font-bold text-2xl">Nord Cameroun</h3>
+            <p class="text-center text-sm">Explorez les meilleurs lieux touristiques et historique du Cameroun</p>
           </div>
         </div>
-        <div class="bg-[#FDCE63] w-[380px] h-[495px] rounded-[25px] overflow-hidden cursor-pointer card">
+        <div class="bg-[#FDCE63] w-[380px] h-[495px] rounded-[25px] overflow-hidden cursor-pointer card card-3">
           <img src="/2.png" alt="image" class="w-full h-[340px] object-cover" />
-          <div class="flex flex-col items-center justify-center gap-3 px-4 py-6">
-            <h3 class="font-bold">Ouest, Bangoulap</h3>
-            <p class="text-center">Maison d’hôtes de charme, la villa Boutanga est située sur le site de la Fondation
+          <div class="flex flex-col items-center justify-center gap-3 px-4 py-6 w-80 mx-auto titles-3">
+            <h3 class="font-bold text-2xl">Ouest, Bangoulap</h3>
+            <p class="text-center text-sm">Maison d’hôtes de charme, la villa Boutanga est située sur le site de la
+              Fondation
               Jean-Felicien</p>
           </div>
         </div>
